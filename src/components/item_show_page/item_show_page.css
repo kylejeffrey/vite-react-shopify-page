@@ -1,0 +1,7 @@
+.item-show-page-container {
+    width: 1200px;
+    height: 1600px;
+    margin: 0 auto;
+    /* display: grid; */
+    /* grid-template-columns: 1fr 1fr; */
+}
