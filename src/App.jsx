@@ -1,7 +1,8 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
-import { Header } from "./components/header/header"
+import { useState } from "react";
+
+import reactLogo from "./assets/react.svg";
+import "./App.css";
+import { Navbar } from "./components/navbar/navbar";
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -30,9 +31,8 @@ function App() {
     //   </p>
     // </div>
 
-    <Header />
-    // <div>this is showing?</div>
-  )
+    <Navbar />
+  );
 }
 
-export default App
+export default App;
