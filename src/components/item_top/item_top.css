@@ -1,0 +1,16 @@
+.item-top-container {
+    display: flex;
+    justify-content: space-between;
+    height: 160px;
+}
+
+.item-top-right {
+    display: flex;
+    justify-content: flex-end;
+    height: 320px;
+}
+
+.item-top-right span {
+    margin: 16px 8px;
+    height: 16px;
+}
