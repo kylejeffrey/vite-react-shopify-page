@@ -9,13 +9,19 @@ export const ItemTop = () => {
           <a href="#">Home</a> / <a href="#">Samples</a> /{" "}
           <a href="#">Neurofunk</a> / <a href="#">Twisted-01</a>
         </p>
-        <h2>Twisted</h2>
+        <h1>Twisted</h1>
         <h5>Neurofunk</h5>
       </div>
       <div className="item-top-right">
-        <span>Add</span>
-        <span>Like</span>
-        <span>Share</span>
+        <span>
+          <a href="#">Add</a>
+        </span>
+        <span>
+          <a href="#">Like</a>
+        </span>
+        <span>
+          <a href="#">Share</a>
+        </span>
       </div>
     </div>
   );

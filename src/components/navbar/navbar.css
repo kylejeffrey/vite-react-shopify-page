@@ -7,23 +7,30 @@
     padding: 8px 24px;
 }
 
+.search-form {
+    flex-grow: 1;
+}
+
 .navbar-search {
     height: 24px;
-    width: 560px;
+    width: 100%;
+    min-width: 160px;
 }
 
 .navbar-link-list-container {
-
+    overflow: hidden;
 }
 
 .navbar-link-list-container ul {
     color: white;
     list-style-type: none;
+    display: flex;
 }
 
 .navbar-link-list-container ul>li {
-    display: inline-block;
+    /* display: inline-block; */
     margin: 8px;
+    flex-shrink: 0;
 }
 
 .navbar-link-list-container ul>li>a {
