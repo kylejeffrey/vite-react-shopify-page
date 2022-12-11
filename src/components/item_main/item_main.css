@@ -27,10 +27,10 @@
 .purchase-container {
     border: 1px solid black;
     height: 320px;
-    width: 400px;
+    width: 480px;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .purchase-title {

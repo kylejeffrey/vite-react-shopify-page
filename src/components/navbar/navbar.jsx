@@ -6,7 +6,7 @@ import "./navbar.css";
 export const Navbar = () => {
   return (
     <div className="navbar-container">
-      <div>
+      <div className="search-form">
         <input
           type="text"
           className="form-control navbar-search"

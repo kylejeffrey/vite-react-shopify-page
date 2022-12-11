@@ -4,6 +4,16 @@
     height: 160px;
 }
 
+.item-top-left h1 {
+    font-size: 40px;
+    margin: 8px auto;
+}
+
+.item-top-left h5 {
+    font-size: 16px;
+    margin: 8px auto;
+}
+
 .item-top-right {
     display: flex;
     justify-content: flex-end;

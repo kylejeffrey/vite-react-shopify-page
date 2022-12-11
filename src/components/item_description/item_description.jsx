@@ -1,6 +1,11 @@
 import React from "react";
 import "./item_description.css";
 
+import Atmosfear from "../../assets/images/Atmosfear.jpg";
+import Essentials from "../../assets/images/Essentials.jpg";
+import GoldenAge from "../../assets/images/Golden_Age.jpg";
+import SnaresAttack from "../../assets/images/Snares_Attack!.jpg";
+
 export const ItemDescription = () => {
   return (
     <div className="item-description-container">
@@ -32,18 +37,29 @@ export const ItemDescription = () => {
           productions.
         </p>
         <p>Get your hands on this new outstanding drum and bass sample pack!</p>
-        <div className="item-contains-container">
-          <h4>Contains</h4>
-          <p>28 Atmos</p>
-          <p>72 Bass FX</p>
-          <p>97 x Breakbeats</p>
-          <p>170 x Drums</p>
-          <p>142 x Misc FX</p>
-          <p>48 x Various Percussion Loops</p>
-          <p>68 x Reese Bass</p>
-          <p>24 x Synths</p>
-          <p>Format: MP3, WAV & FLAC</p>
-          <p>Total: 840 mb</p>
+        <div className="description-extras-container">
+          <div className="item-contains-container">
+            <h4>Contains</h4>
+            <p>28 Atmos</p>
+            <p>72 Bass FX</p>
+            <p>97 x Breakbeats</p>
+            <p>170 x Drums</p>
+            <p>142 x Misc FX</p>
+            <p>48 x Various Percussion Loops</p>
+            <p>68 x Reese Bass</p>
+            <p>24 x Synths</p>
+            <p>Format: MP3, WAV & FLAC</p>
+            <p>Total: 840 mb</p>
+          </div>
+          <div className="related-products-container">
+            <h4>Related Products</h4>
+            <div className="related-products">
+              <img src={Atmosfear} alt="Atmosfear" />
+              <img src={Essentials} alt="Essentials" />
+              <img src={GoldenAge} alt="GoldenAge" />
+              <img src={SnaresAttack} alt="SnaresAttack" />
+            </div>
+          </div>
         </div>
       </div>
     </div>
