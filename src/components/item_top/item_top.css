@@ -4,6 +4,14 @@
     height: 160px;
 }
 
+.item-top-left a {
+    text-decoration: none;
+}
+
+.item-top-left a:hover {
+    text-decoration: underline;
+}
+
 .item-top-left h1 {
     font-size: 40px;
     margin: 8px auto;
@@ -23,4 +31,12 @@
 .item-top-right span {
     margin: 16px 8px;
     height: 16px;
+}
+
+.item-top-right a {
+    text-decoration: none;
+}
+
+.item-top-right a:hover {
+    text-decoration: underline;
 }
