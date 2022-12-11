@@ -1,0 +1,45 @@
+.navbar-container {
+    height: 80px;
+    background-color: rgb(50, 50, 50);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 24px;
+}
+
+.navbar-search {
+    height: 24px;
+    width: 560px;
+}
+
+.navbar-link-list-container {
+
+}
+
+.navbar-link-list-container ul {
+    color: white;
+    list-style-type: none;
+}
+
+.navbar-link-list-container ul>li {
+    display: inline-block;
+    margin: 8px;
+}
+
+.navbar-link-list-container ul>li>a {
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+}
+
+#login {
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+}
+
+#signup {
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+}
