@@ -15,6 +15,14 @@
     display: flex;
     justify-content: center;
     height: 320px;
+    border-radius: 5px;
+    transition: transform .2s;
+    box-shadow: 10px 10px 10px rgb(200, 200, 200);
+}
+
+.item-main-left img:hover {
+    transform: scale(1.05);
+    cursor: pointer;
 }
 
 
@@ -26,11 +34,13 @@
 }
 .purchase-container {
     border: 1px solid black;
+    border-radius: 5px;
     height: 320px;
     width: 480px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    box-shadow: 10px 10px 10px rgb(200, 200, 200);
 }
 
 .purchase-title {
@@ -57,5 +67,18 @@
     height: 48px;
     width: 90%;
     align-self: center;
+    /* background-color: #0f0000; */
+    background-color: rgb(23, 47, 225);
+    color: white;
+    border-radius: 5px;
+    /* transition: .2s; */
+}
+
+.purchase-button:hover {
     /* background-color: ; */
+    box-shadow: 1px 1px 1px rgb(48, 70, 234);
+    transform: scale(1.01);
+    /* background-color: #4B51CE; */
+    color: #ececec;
+    cursor: pointer;
 }

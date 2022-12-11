@@ -10,7 +10,7 @@ export const Navbar = () => {
         <input
           type="text"
           className="form-control navbar-search"
-          placeholder="Search"
+          placeholder="Search for Samples!"
         ></input>
       </div>
       <div className="navbar-link-list-container">

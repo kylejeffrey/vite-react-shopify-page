@@ -17,6 +17,7 @@ export const ItemMain = () => {
           <select name="audio-format" id="audio-format">
             <option value="MP3">MP3</option>
             <option value="WAV">WAV</option>
+            <option value="WAV">AIFF</option>
             <option value="FLAC">FLAC</option>
           </select>
           <button className="purchase-button">Buy Now!</button>
