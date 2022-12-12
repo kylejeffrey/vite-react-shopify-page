@@ -6,6 +6,7 @@
 
 .item-top-left a {
     text-decoration: none;
+    color: black;
 }
 
 .item-top-left a:hover {
@@ -36,8 +37,21 @@
 
 .item-top-right a {
     text-decoration: none;
+    color: black;
 }
 
 .item-top-right a:hover {
     text-decoration: underline;
+}
+
+#add-icon:hover {
+    color: blue;
+}
+
+#heart-icon:hover {
+    color: red;
+}
+
+#share-icon:hover {
+    color: orange
 }

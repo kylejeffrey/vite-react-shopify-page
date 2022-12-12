@@ -1,5 +1,6 @@
 .navbar-container {
     height: 80px;
+    /* width: 100%; */
     background-color: rgb(50, 50, 50);
     display: flex;
     align-items: center;
@@ -50,9 +51,26 @@
     color: black;
 }
 
+#login:hover {
+    background-color: black;
+    color: white;
+}
+
+
 #signup {
     border: 1px solid white;
     border-radius: 5px;
     background-color: black;
     color: white;
+}
+
+#signup:hover {
+    background-color: white;
+    color: black;
+}
+
+@media only screen and (max-width: 992px) {
+    .navbar-link-list-container {
+        display: none;
+    }
 }
