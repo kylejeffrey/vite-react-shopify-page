@@ -1,6 +1,5 @@
-.item-description {
-    /* word-wrap: normal; */
-}
+/* .item-description {
+} */
 
 .description-extras-container {
     display: flex;
@@ -15,6 +14,7 @@
     height: 160px;
     width: 240px;
     margin: 8px;
+    border-radius: 5px;
     transition: .2s;
 }
 
