@@ -13,7 +13,6 @@ export const ItemMain = () => {
         <div className="purchase-container">
           <h2 className="purchase-title">Twisted</h2>
           <h3 className="purchase-price">¥ 2,000</h3>
-          <span id="demo-player">DEMO PLAYER</span>
           <select name="audio-format" id="audio-format">
             <option value="MP3">MP3</option>
             <option value="WAV">WAV</option>
