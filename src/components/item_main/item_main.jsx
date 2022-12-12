@@ -20,7 +20,7 @@ export const ItemMain = () => {
             <option value="WAV">AIFF</option>
             <option value="FLAC">FLAC</option>
           </select>
-          <button className="purchase-button">Buy Now!</button>
+          <button className="purchase-button">BUY NOW!</button>
         </div>
       </div>
     </div>

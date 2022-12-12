@@ -33,7 +33,7 @@
     /* width: 600px; */
 }
 .purchase-container {
-    border: 1px solid black;
+    border: 1px solid rgb(150, 150, 150);
     border-radius: 5px;
     height: 320px;
     width: 480px;
@@ -44,7 +44,7 @@
 }
 
 .purchase-title {
-    margin: 16px auto;
+    margin: 8px auto;
     font-size: 32px;
 }
 
@@ -68,15 +68,18 @@
     width: 90%;
     align-self: center;
     /* background-color: #0f0000; */
-    background-color: rgb(23, 47, 225);
-    color: white;
+    /* background-color: rgb(23, 47, 225); */
+    background-color: #FA8F21;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
     border-radius: 5px;
     /* transition: .2s; */
 }
 
 .purchase-button:hover {
     /* background-color: ; */
-    box-shadow: 1px 1px 1px rgb(48, 70, 234);
+    box-shadow: 1px 1px 1px rgb(200, 200, 200);
     transform: scale(1.01);
     /* background-color: #4B51CE; */
     color: #ececec;

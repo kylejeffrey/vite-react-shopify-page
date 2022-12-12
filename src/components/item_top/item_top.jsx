@@ -14,13 +14,19 @@ export const ItemTop = () => {
       </div>
       <div className="item-top-right">
         <span>
-          <a href="#">Add</a>
+          <a href="#">
+            <i className="fa-solid fa-plus"></i>
+          </a>
         </span>
         <span>
-          <a href="#">Like</a>
+          <a href="#">
+            <i className="fa-solid fa-heart"></i>
+          </a>
         </span>
         <span>
-          <a href="#">Share</a>
+          <a href="#">
+            <i className="fa-solid fa-share"></i>
+          </a>
         </span>
       </div>
     </div>
